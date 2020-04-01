@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Passion+One|Raleway:300,700" rel="stylesheet">
+
+<style>
+body {
+  margin: 40px;
+  background-color: rgba(1,1,1,.9);
+  background: auto;
+}
+div {
+  height: 600px;
+  background-size: cover;
+  position: relative;
+  margin: 50px 20px 0px 20px;
+  
+}
+h1 {
+  font-family: 'Raleway', bold;
+  text-align: center;
+  font-size: 160px;
+  color: white;
+  margin: 0px 3px 0px 4px;
+}
+br{
+  size: 1px;
+  }
+h2 {
+  text-align: center;
+  font-family: 'Raleway', l;
+  font-weight: 300;
+  color: rgba(180,180,180,1);
+  font-size: 60px;
+  margin: -20px 0px -20px -90px;
+}
+p {
+  font-family: 'Raleway', bold;
+  font-size: 50px;
+  color: white  ;
+   -webkit-text-stroke: 5px white;
+  background: linear-gradient(bottom, rgba(15,126,128,.9), rgba(15,126,128,.2));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,.9), rgba(0,0,0,.2));
+  background: -moz-linear-gradient(bottom, rgba(15,126,128,.9), rgba(155,126,128,.2));
+  padding: 40px;
+  line-height: 35px;
+  text-align: cover;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  right: 0;
+  left: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  font-family: 'Raleway', bold;
+  font-style: regularr;
+  color: white;
+  font-size: 30px;
+  opacity: 0;
+  -webkit-text-stroke: 0px white;
+}
+
+.show-description p {
+  height: 180px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("https://imgur.com/VaRHL9U.jpg");
+}
+.second{
+  background-image: url("https://imgur.com/biBeHN7.jpg");
+}
+.dessert{
+  background-image: url("https://imgur.com/UXveVMw.jpg");
+}
+.gojae{
+  background-image: url("https://imgur.com/n3ePwk0.jpg");
+}
+.boemil{
+  background-image: url("https://imgur.com/8lyunUz.jpg");
+  }
+.boemil2{
+  background-image: url("https://imgur.com/D54Gvag.jpg");
+  }
+.boemil3{
+  background-image: url("https://imgur.com/8c6WYnO.jpg");
+  }
+.boemil4{
+  background-image: url("https://imgur.com/2bB2yBp.jpg");
+  }
+.boemil5{
+  background-image: url("https://imgur.com/sAuKn5d.jpg");
+  }
+.boemil6{
+  background-image: url("https://imgur.com/lsGNYR1.jpg");
+  }
+  
+@media (max-width: 1000px) {
+  body{
+    margin: 10px;
+  }
+  h1 {
+    font-size: 137px;
+    margin: 30px 10px 2px 13px;
+    line-height: 110px;
+    text-align: left;
+  }
+  .show-description p {
+  height: 625px;
+}
+  h2 {
+    text-align: left;
+    font-size: 50px;
+    margin: 30px 50px 100px 40px;
+  }
+  div {
+    margin: 10px 10px 20px 10px;
+    height: 1100px;
+  
+  }
+  p {
+    font-size: 80px;
+    line-height: 30px;
+    padding: 30px;
+  }
+  small {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Busan Hiking</h1>
+<h2>@trail_less_traveled</h2>
+<div class="first">
+  <p>Mt. Jangsan <span class="price"></span>
+  <small>
+  <br />
+  <br />
+  Elevated at a height of 643 meters at it's peak, Jangsan is the tallest mountain in the City of Busan and features stunning 360 degree views of the beautiful building and attractions including Seomyeon, Busan's downtown district, the wonderful Gwangan Bridge, and gorgeous beaches of Haeundae. </small></p>
+</div>
+
+<div class="second">
+  <p>Gwangan<span class="price"></span><br />
+  <small>
+  <br />
+  This gorgeous beach overlooking the Gwangan Bridge, built in 1994, is a half-moon shape with fine sand. The adjacent street is lined with restaurants, coffee shops and nightclubs. </small></p>
+</div>
+  
+<div class="dessert">
+  <p>Igidae <span class="price"></span>
+  <small>
+  <br />
+  <br />
+  Wonderful Oceanfront Forest hike with sections of boardwalk, trails and stream crossing due to diversion as a part of the trail was closed due to work going on. Beautiful views of the forest , cliffs and sea.</small></p>
+</div>
+<div class="boemil">
+  <p>Igidae <span class="price"></span>
+  <small>
+  <br />
+  <br />
+  Wonderful Oceanfront Forest hike with sections of boardwalk, trails and stream crossing due to diversion as a part of the trail was closed due to work going on. Beautiful views of the forest , cliffs and sea.</small></p>
+</div>
+<div class="boemil2">
+  <p>Igidae <span class="price"></span>
+  <small>
+  <br />
+  <br />
+  Wonderful Oceanfront Forest hike with sections of boardwalk, trails and stream crossing due to diversion as a part of the trail was closed due to work going on. Beautiful views of the forest , cliffs and sea.</small></p>
+</div>
+<div class="boemil3">
+  <p>Igidae <span class="price"></span>
+  <small>
+  <br />
+  <br />
+  Wonderful Oceanfront Forest hike with sections of boardwalk, trails and stream crossing due to diversion as a part of the trail was closed due to work going on. Beautiful views of the forest , cliffs and sea.</small></p>
+</div>
+<div class="boemil4">
+  <p>Igidae <span class="price"></span>
+  <small>
+  <br />
+  <br />
+  Wonderful Oceanfront Forest hike with sections of boardwalk, trails and stream crossing due to diversion as a part of the trail was closed due to work going on. Beautiful views of the forest , cliffs and sea.</small></p>
+</div>
+<div class="boemil5">
+  <p>Igidae <span class="price"></span>
+  <small>
+  <br />
+  <br />
+  Wonderful Oceanfront Forest hike with sections of boardwalk, trails and stream crossing due to diversion as a part of the trail was closed due to work going on. Beautiful views of the forest , cliffs and sea.</small></p>
+</div>
+<div class="gojae">
+  <p>Igidae <span class="price"></span>
+  <small>
+  <br />
+  <br />
+  Wonderful Oceanfront Forest hike with sections of boardwalk, trails and stream crossing due to diversion as a part of the trail was closed due to work going on. Beautiful views of the forest , cliffs and sea.</small></p>
+</div>
+<div class="boemil6">
+  <p>Igidae <span class="price"></span>
+  <small>
+  <br />
+  <br />
+  Wonderful Oceanfront Forest hike with sections of boardwalk, trails and stream crossing due to diversion as a part of the trail was closed due to work going on. Beautiful views of the forest , cliffs and sea.</small></p>
+</div>
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+</body>
